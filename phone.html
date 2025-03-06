@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用意見調查表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>行動電話使用意見調查表</h1>
+
+    <form action="/test.aspx"method="post">
+        <fieldset>
+            <br>
+        <label for="user">姓名:</label>
+        <input name="name"value="陳宗賢">
+        <br><br>
+        <label for="email">E-Mail:</label>
+        <input type="email" value="4b3g0050@office.stust.edu.tw">
+        <br><br> </fieldset>
+        <p>您使用手機時最常碰到那些問題?
+        <br>
+        <textarea name="userTyouble" cols="40" rows="4">手機電池持續時間不夠久</textarea>
+        <br>
+        <p>您使用過哪家業者的門號?(可複選)
+        <select name="userNumber" size="4"multiple> 
+                <option value="中華電信">中華電信</option>
+                <option value="台灣大哥大">台灣大哥大</option>
+                <option value="遠傳">遠傳</option>
+                <option value="台灣之星">台灣之星</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重設">
+</body>
+</html>
